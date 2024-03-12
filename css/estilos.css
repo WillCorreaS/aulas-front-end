@@ -6,3 +6,16 @@ body {
     background-attachment: fixed;/*Deixa a imagem de fundo fixa*/
     background-size: cover;/*Preenche toda tela com a imagem - precisa de imagem de qualidade*/
 }
+
+div{
+    background-color: rgba(252, 252, 252, 0.87);
+    width: 70%;/*Delimita o tamanho horizontal do elemento*/
+    height: auto;/*Delimita o tamanho vertical do elemento*/
+    margin: auto;
+}
+
+
+/*Delimitar o tamanho das imagens para caber no div*/
+img {
+    max-width: 100%;
+}
