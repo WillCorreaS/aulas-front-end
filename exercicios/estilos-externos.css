@@ -1,0 +1,18 @@
+/*Área exclusiva para estilização das páginas com css Externo.
+Padrão:
+        seletor {
+            propriedade1: valor;
+            propriedade2: valor;
+        }
+*/
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(177, 195, 196);
+}
+
+hr{
+    height: 8px;
+    background-color: beige;
+    border: none;
+}
