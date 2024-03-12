@@ -2,20 +2,67 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url(../imagens/tarde.jpg); /*url = src (indicar o caminho da imagem)*/
-    background-attachment: fixed;/*Deixa a imagem de fundo fixa*/
-    background-size: cover;/*Preenche toda tela com a imagem - precisa de imagem de qualidade*/
+    background-image: url(../imagens/tarde.jpg);
+    /*url = src (indicar o caminho da imagem)*/
+    background-attachment: fixed;
+    /*Deixa a imagem de fundo fixa*/
+    background-size: cover;
+    /*Preenche toda tela com a imagem - precisa de imagem de qualidade*/
 }
 
-div{
+div {
     background-color: rgba(252, 252, 252, 0.87);
-    width: 70%;/*Delimita o tamanho horizontal do elemento*/
-    height: auto;/*Delimita o tamanho vertical do elemento*/
+    width: 70%;
+    /*Delimita o tamanho horizontal do elemento*/
+    height: auto;
+    /*Delimita o tamanho vertical do elemento*/
     margin: auto;
+    border-radius: 9px;
+    /*arredonda o canto das bordas*/
+    padding: 9px;
+    /*cria uma margem dentro do container*/
+
+    /*       :rgbCor  distX  disty   blur*/
+    box-shadow: rgba(128, 128, 128, 0.678) 8px 8px 3px;
+
 }
 
 
 /*Delimitar o tamanho das imagens para caber no div*/
 img {
     max-width: 100%;
+    /*aumenta e diminui até o tamanho máxo da imagem*/
 }
+
+figure {
+    text-align: center;
+    /*Centraliza tudo que está contido dentro do elemento "figire"*/
+}
+
+/*
+Exercício:
+Criar regra CSS contendo as seguintes propriedades.
+- fonte: Impact, Verdana, Arial e sans-serif
+- Cor de fundo: escura com transparência
+- Cor do texto: clara
+- Espaçamento: interno APENAS para cima e para baixo
+- letras maiúsculas
+- texto alinhado no meio
+- Bordas arredondadas APENAS nos cantos superiores
+- Sombra no texto
+*/
+
+h1 {
+    font-family: Impact, Verdana, Arial, sans-serif;
+    background-color: rgba(0, 55, 59, 0.493);
+    color: rgb(231, 231, 231);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-shadow: rgba(0, 0, 0, 0.555) 5px 5px 3px;
+    padding-left: 15px;
+}
+
