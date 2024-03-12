@@ -60,10 +60,21 @@ h1 {
     padding-bottom: 15px;/*espaçamento interno do bottom(em baixo)*/
     text-transform: uppercase;/*Deixa o texto em letras MAIÚSCULAS (lowercase - minuscula)*/
     text-align: center;
+
+    /*para arredondar a borda pode usar = border-radius: 10px(top esquerdo) 10px(topo direito) 0px 0px*/
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     text-shadow: rgba(0, 0, 0, 0.555) 5px 5px 3px;/*Aplica sombra no texto*/
     padding-left: 15px;
     letter-spacing: 2px;/*Mexe no espaçamento das letras (letter)*/
+    box-shadow: rgba(0, 0, 0, 0.37) 5px 5px 5px;
 }
 
+h2 {
+    font-size: 20;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-left-style: solid;
+    border-left-width: 20px ;
+    padding: 10px;    
+}
