@@ -56,13 +56,14 @@ h1 {
     font-family: Impact, Verdana, Arial, sans-serif;
     background-color: rgba(0, 55, 59, 0.493);
     color: rgb(231, 231, 231);
-    padding-top: 15px;
-    padding-bottom: 15px;
-    text-transform: uppercase;
+    padding-top: 15px;/*espaçamento interno do top(em cima)*/
+    padding-bottom: 15px;/*espaçamento interno do bottom(em baixo)*/
+    text-transform: uppercase;/*Deixa o texto em letras MAIÚSCULAS (lowercase - minuscula)*/
     text-align: center;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    text-shadow: rgba(0, 0, 0, 0.555) 5px 5px 3px;
+    text-shadow: rgba(0, 0, 0, 0.555) 5px 5px 3px;/*Aplica sombra no texto*/
     padding-left: 15px;
+    letter-spacing: 2px;/*Mexe no espaçamento das letras (letter)*/
 }
 
