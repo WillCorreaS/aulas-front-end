@@ -2,5 +2,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color:linen;
+    background-image: url(../imagens/tarde.jpg); /*url = src (indicar o caminho da imagem)*/
+    background-attachment: fixed;/*Deixa a imagem de fundo fixa*/
+    background-size: cover;/*Preenche toda tela com a imagem - precisa de imagem de qualidade*/
 }
