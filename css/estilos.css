@@ -67,6 +67,8 @@ h1 {
     text-shadow: rgba(0, 0, 0, 0.555) 5px 5px 3px;/*Aplica sombra no texto*/
     padding-left: 15px;
     letter-spacing: 2px;/*Mexe no espaçamento das letras (letter)*/
+    font-weight: normal;
+    -webkit-text-stroke: 1px rgba(68, 68, 68, 0.575);/*cria borda no texto, mas possui chances de incompatibilidade entre navegadores antigos que não usam a engine -webkit*/
     box-shadow: rgba(0, 0, 0, 0.37) 5px 5px 5px;
 }
 
@@ -77,4 +79,50 @@ h2 {
     border-left-style: solid;
     border-left-width: 20px ;
     padding: 10px;    
+}
+
+
+/*Acima são todos seletores de TAG (alterações vale para todas as tags daquele tipo)*/
+
+/*Abaixo serão seletores Descendente (alterações vale para todas as tags CONTIDA em um grupo específico)*/
+nav a { 
+    color: black;
+}
+
+figure img{
+    transform: scale(0.9);
+    transition: 0.5s;
+    filter: grayscale(100%);
+}
+
+/*Usando SUBCLASSE "hover" */
+figure img:hover{
+    transform: scale(1);
+    filter: grayscale(0%);
+}
+
+div nav a{
+    transform: scale(0.9);
+    transition: 0.3s;
+    display: inline-block;/*Usar atributo "DISPLAY: INLINE-BLOCK" para modificar a tratativa da tag "a"(link)*/
+}
+
+div nav a:hover{
+    transform: scale(1);
+    transition: 0.3s;}
+
+/*Criar grupo de seletores usa-se a " , " */
+p, li {font-size: 18px;}
+
+/*Seletor de CLASSE*/
+.centralizar {text-align: center;}
+
+.sombra {text-shadow: gray;}
+
+.destaque {
+    background-color: aquamarine;
+    color: rgb(126, 1, 126);
+    padding: 3px;
+    border-radius: 5px;
+    border-style: groove;
 }
