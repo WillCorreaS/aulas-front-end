@@ -130,10 +130,10 @@ p, li {font-size: 18px;}
 }
 
 .destaque-back{
-    background-color: yellow;
+    background-color: rgba(255, 255, 0, 0.466);
     padding: 8px;
     border-radius: 4px;
-    
+    margin-bottom: 10px;
 }
 
 /*Seletor identificado (#) pode ser usado apenas 1 ID por página, uma página pode ter diversos ID com nomes diferentes.*/
