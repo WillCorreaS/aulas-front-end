@@ -1,5 +1,11 @@
 /*Área destinada para - Criar REGRAS de FORMATAÇÃO CSS*/
 
+
+/*Seletor universal utiliza-se o " * " , utilizando esta regra evitamos probremas ocasionais quando usamos propriedades que redimencionam qualquer coisa no site (width, height, paddin, border etc...) */
+*{box-sizing: border-box;}
+
+
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: url(../imagens/tarde.jpg);
@@ -55,6 +61,7 @@ Criar regra CSS contendo as seguintes propriedades.
 */
 
 h1 {
+    margin: 0;
     font-family: Impact, Verdana, Arial, sans-serif;
     background-color: rgba(0, 55, 59, 0.493);
     color: rgb(231, 231, 231);
@@ -71,7 +78,7 @@ h1 {
     letter-spacing: 2px;/*Mexe no espaçamento das letras (letter)*/
     font-weight: normal;
     -webkit-text-stroke: 1px rgba(68, 68, 68, 0.575);/*cria borda no texto, mas possui chances de incompatibilidade entre navegadores antigos que não usam a engine -webkit*/
-    box-shadow: rgba(0, 0, 0, 0.37) 5px 5px 5px;
+    /*box-shadow: rgba(0, 0, 0, 0.37) 5px 5px 5px;*/
 }
 
 h2 {
@@ -87,9 +94,7 @@ h2 {
 /*Acima são todos seletores de TAG (alterações vale para todas as tags daquele tipo)*/
 
 /*Abaixo serão seletores Descendente (alterações vale para todas as tags CONTIDA em um grupo específico)*/
-nav a { 
-    color: black;
-}
+
 
 figure img{
     transform: scale(0.9);
@@ -103,15 +108,8 @@ figure img:hover{
     filter: grayscale(0%);
 }
 
-div nav a{
-    transform: scale(0.9);
-    transition: 0.3s;
-    display: inline-block;/*Usar atributo "DISPLAY: INLINE-BLOCK" para modificar a tratativa da tag "a"(link)*/
-}
 
-div nav a:hover{
-    transform: scale(1);
-    transition: 0.3s;}
+    
 
 /*Criar grupo de seletores usa-se a " , " */
 p, li {font-size: 18px;}
@@ -139,3 +137,40 @@ p, li {font-size: 18px;}
 /*Seletor identificado (#) pode ser usado apenas 1 ID por página, uma página pode ter diversos ID com nomes diferentes.*/
 
 
+
+/********************************/
+
+/***Estado inicial dos links***/
+nav {text-align: center;
+}
+
+nav a{
+    color: black;
+    font-weight: bold;
+    background-color: rgb(0, 55, 59, 0.493);
+    display: inline-block;
+    width: 50%;
+    /*border-radius: 5px;*/
+    /*border-style: groove;*/
+    padding-block: 2%;
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+nav a:hover{
+    transform: scale(1);
+    transition: 0.5s;
+    color:aliceblue;   
+}
+
+nav a:hover, nav a:focus{
+    background-color: rgb(39, 39, 39);
+}
+
+nav a:first-child{
+    border-bottom-left-radius: 9px;
+}
+
+nav a:last-child{
+    border-bottom-right-radius: 9px;
+}

@@ -49,3 +49,18 @@ seletor {
 É criado um arquivo de extensão CSS dedicado às regras de formatação. Este arquivo é então "conectado" às páginas HTML.
 
 
+#### Tipos de Seletores 
+
+- TAG: Seletor generalista, casa com elementos HTML comuma tag especificada.
+
+- Descendente: Seletor mais espedífico, casa com elementos que são filhas. Usa-se espaço para separar tags Pai/Filhas.
+
+- Agrupado: Grupo de seletores que compartilha uma mesma formatação. Usa-se ' , ' para separar os elementos.
+
+- Pseudo-Classe: Classes "pré-prontas/nativas" da linguagem que podem ser usadas em diversas situações. Ex: passar o mauses, reconhecer o foco, selecionar determinados elementos etc. Todas Pseudo-Classes começão com ' : '
+
+- Classe: Seletor versátil que permite a aplicação de estilos em diversos elementos, possibilitando também a combinação de diferentes classes. No CSS usa-se '.nome-da-classe' para criar a classe, no html usa-se o 'atributo classe= nome-da-classe' para aplicar a classe.
+
+- Identificado (ID): seletor bastante restrito (o mesmo id só pode ser usado em um elemento por página), permitindo criar uma estilização altamente específica. No CSS usa-se '#nome-do-id' para criar, e no HTML usa-se 'atributo id= nome-do-id' para aplicar.
+
+
