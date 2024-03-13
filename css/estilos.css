@@ -10,7 +10,9 @@ body {
     /*Preenche toda tela com a imagem - precisa de imagem de qualidade*/
 }
 
-div {
+
+/*Seletor identificado*/
+#container {
     background-color: rgba(252, 252, 252, 0.87);
     width: 70%;
     /*Delimita o tamanho horizontal do elemento*/
@@ -126,3 +128,14 @@ p, li {font-size: 18px;}
     border-radius: 5px;
     border-style: groove;
 }
+
+.destaque-back{
+    background-color: yellow;
+    padding: 8px;
+    border-radius: 4px;
+    
+}
+
+/*Seletor identificado (#) pode ser usado apenas 1 ID por página, uma página pode ter diversos ID com nomes diferentes.*/
+
+
