@@ -204,11 +204,27 @@ ul li:last-child{
 }
 
 ul li:nth-child(3){
-    color: chartreuse;
+    color : rgb(0, 155, 64);
 }
 
 /*Alternando cores em uma lista*/
 
 ul li:nth-child(even){background-color: rgba(240, 128, 128, 0.74);}
 ul li:nth-child(odd){background-color: gainsboro;}
+
+details{
+    border: solid 5px;
+    padding: 8px;
+}
+
+summary{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+summary::marker{content: " 😑 ";}
+
+/*Seletor de atributos []  , utilizado para atribuir determinado comportamento sobre os ATRIBUTOS já existente */
+
+details[open] summary::marker{content: " 😛 ";}
 
