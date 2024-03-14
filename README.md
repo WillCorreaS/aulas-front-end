@@ -63,4 +63,10 @@ seletor {
 
 - Identificado (ID): seletor bastante restrito (o mesmo id só pode ser usado em um elemento por página), permitindo criar uma estilização altamente específica. No CSS usa-se '#nome-do-id' para criar, e no HTML usa-se 'atributo id= nome-do-id' para aplicar.
 
+*****************************************************************************************
+
+### date 14.03.2024
+
+- Pseudo-Elemento: categorizado com o uso de ' :: '
+
 

@@ -157,7 +157,7 @@ nav a{
     transition: 0.3s;
 }
 
-nav a:hover{
+nav a:hover, nav a:focus{
     transform: scale(1);
     transition: 0.5s;
     color:aliceblue;   
@@ -174,3 +174,41 @@ nav a:first-child{
 nav a:last-child{
     border-bottom-right-radius: 9px;
 }
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+}
+
+ul li{
+    color: brown;
+    list-style-type: square;
+}
+
+ul li::marker{
+    content: " 🖤 ";
+    font-size: 24px;
+    font-weight: bolder;
+    color: rgba(255, 8, 8, 0.918);
+}
+
+ul li:first-child{
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+ul li:last-child{
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+ul li:nth-child(3){
+    color: chartreuse;
+}
+
+/*Alternando cores em uma lista*/
+
+ul li:nth-child(even){background-color: rgba(240, 128, 128, 0.74);}
+ul li:nth-child(odd){background-color: gainsboro;}
+
