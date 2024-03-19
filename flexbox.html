@@ -26,14 +26,18 @@
 
 		#exemplo-flexbox {
 			width: 80%;
-			height: 600px;
+			height: 1100px;
 			margin: auto;
 			background-color: rgb(255, 255, 129);
 
 			/*Habilitando Flexbox*/
 			display: flex;
 			justify-content: space-between;
-			align-items: center;
+			
+			/*Nas probriedades abaixo usa-se uma regra diferenciada para o alinhamento. Em 'ROW' o alinhamento 'START' puxa os itens para o início da linha (lado esquerdo) porém se usar flex-direction em 'COLUMN' o alinhamento irá puxar os itens para o início da coluna (para o topo)*/
+			
+			align-items: start;
+			flex-direction: row;
 		}
 
 	</style>
