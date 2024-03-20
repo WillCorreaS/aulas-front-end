@@ -69,4 +69,13 @@ seletor {
 
 - Pseudo-Elemento: categorizado com o uso de ' :: '
 
+#### Web Disign Responsivo
+
+- Mobile First (desenvolvido primeiramente para telas pequenas - Celulares, tablets)
+        Nesta abordagem o desenvolvimento é focado <b>primeiro em telas pequenas</b>, para somente depois realizarmos em telas grandes
+        
+
+- Desktop First (desenvolvido primeiramente para telas grandes - Computadores) 
+        Nesta abordagem o desenvolvimento é focado <b>primeiro em telas grandes</b>, para somente depois realizarmos em telas pequenas
+
 
