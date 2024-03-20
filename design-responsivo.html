@@ -1,26 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Disign Responsivo</title>
+
+
+    <style>
+        /*Etapa 1°:
+        criar regras gerais (estilos que serão aplicados para telas pqeuenas e também para telas grandes)*/
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: rgb(231, 230, 226);
+        }
+
+        .exemplo {
+            background-color: aliceblue;
+            padding: 4px;
+            border-radius: 4px;
+        }
+
+        h1 {
+            color: brown;
+            text-shadow: rgba(0, 0, 0, 0.63) 1px 1px 2px;
+            font-size: 24px;
+        }
+
+        hr {
+            border: none;
+            height: 2px;
+            background-color: rgba(137, 43, 226, 0.678);
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+
+
+
+
+        /*Etapa 2°:
+        estilos que serão aplicados em determinadas condições dependendo do uso de telas (neste exemplo que estamos usando designe responsivo)*/
+    </style>
 </head>
+
 <body>
     <div class="exemplo">
         <h1>Disign Responsivo (ou Responsividade)</h1>
         <hr>
-        <p><b>O que é:</b> um conjunto de técnicas de desenvolvimento front-end visando a construção de sites em que o layout e a experiência geral do uso funcionem bem em dispositivos com tamanhos de telas variados.</p>
+        <p><b>O que é:</b> um conjunto de técnicas de desenvolvimento front-end visando a construção de sites em que o
+            layout e a experiência geral do uso funcionem bem em dispositivos com tamanhos de telas variados.</p>
 
         <p>Existem <b>duas abordagens</b> para desenvolvimento responsivo:</p>
 
         <h2>Mobile First:</h2>
-        <p>Nesta abordagem o desenvolvimento é focado <b>primeiro em telas pequenas</b>, para somente depois realizarmos em telas grandes.</p>
+        <p>Nesta abordagem o desenvolvimento é focado <b>primeiro em telas pequenas</b>, para somente depois realizarmos
+            em telas grandes.</p>
 
 
         <h2>Desktop First:</h2>
-        <p>Nesta abordagem o desenvolvimento é focado <b>primeiro em telas grandes</b>, para somente depois realizarmos em telas pequenas.</p>
+        <p>Nesta abordagem o desenvolvimento é focado <b>primeiro em telas grandes</b>, para somente depois realizarmos
+            em telas pequenas.</p>
 
     </div>
 
 </body>
+
 </html>
