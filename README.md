@@ -81,3 +81,62 @@ seletor {
 
 Mídia Quéries (consultas de mídias)/*estilos que serão aplicados em determinadas condições dependendo do uso de telas (neste exemplo que estamos usando designe responsivo)*/
     @media 
+
+
+#### Estrutu Básica de HTML para CSS ####
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Responsivo</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="topo">
+
+            <h1>Site Exemplo</h1>
+
+            <nav class="menu">
+                <a href="">Link</a>
+                <a href="">Link</a>
+                <a href="">Link</a>
+            </nav>
+
+        </header>
+
+        <main class="conteudo">
+
+            <article class="um">
+                <h2>Um</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut beatae, sunt temporibus doloremque neque vitae aliquam omnis, vel consequuntur laudantium, quae repellendus possimus modi eaque officiis ducimus fugit similique nulla.</p>
+            </article>
+
+            <article class="dois">
+                <h2>Dois</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut beatae, sunt temporibus doloremque neque vitae aliquam omnis, vel consequuntur laudantium, quae repellendus possimus modi eaque officiis ducimus fugit similique nulla.</p>
+            </article>
+
+            <article class="tres">
+                <h2>Tres</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut beatae, sunt temporibus doloremque neque vitae aliquam omnis, vel consequuntur laudantium, quae repellendus possimus modi eaque officiis ducimus fugit similique nulla.</p>
+            </article>
+
+        </main>
+
+        <footer>
+            <h2>Rodapé</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, recusandae!</p>
+        </footer>
+        
+    </div>
+</body>
+
+</html>
+
+
