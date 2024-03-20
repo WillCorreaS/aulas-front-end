@@ -49,8 +49,11 @@
         /*Etapa 2°:
         estilos que serão aplicados em determinadas condições dependendo do uso de telas (neste exemplo que estamos usando designe responsivo)*/
         /*Mídia Quéries (consultas de mídias)*/
-        @media screen and (min-width: 600px){
-            body {background-color:yellow;}
+        @media screen and (min-width: 600px) {
+            body {
+                background-color: yellow;
+            }
+
             h1 {
                 text-align: center;
                 font-size: 28px;
@@ -66,21 +69,25 @@
             -Cor de fundo da página deve voltar a cor original
         */
 
-        @media screen and (min-width: 777px){
-            body{
-                display: flex;
-                justify-content: center;
+        @media screen and (min-width: 777px) {
+            body {
                 background-color: rgb(43, 255, 124);
             }
-            .exemplo{
+
+            .exemplo {
                 width: 75%;
+                margin: auto;
             }
-            b{color: blue; background-color: chartreuse;}
-            p{font-size: 18px;}
+
+            b {
+                color: blue;
+                background-color: chartreuse;
+            }
+
+            p {
+                font-size: 18px;
+            }
         }
-
-
-
     </style>
 </head>
 
