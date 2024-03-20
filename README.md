@@ -86,7 +86,7 @@ Mídia Quéries (consultas de mídias)/*estilos que serão aplicados em determin
 #### Estrutu Básica de HTML para CSS ####
 
 
-<!DOCTYPE html>
+''<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
@@ -137,6 +137,11 @@ Mídia Quéries (consultas de mídias)/*estilos que serão aplicados em determin
     </div>
 </body>
 
-</html>
+</html>''
+
+
+###### Utilizando Flex-Box ######
+
+-display:flex = utilizado para habilitar o uso dos atributos do Flex-box
 
 
