@@ -73,9 +73,11 @@ seletor {
 
 - Mobile First (desenvolvido primeiramente para telas pequenas - Celulares, tablets)
         Nesta abordagem o desenvolvimento é focado <b>primeiro em telas pequenas</b>, para somente depois realizarmos em telas grandes
-        
+
 
 - Desktop First (desenvolvido primeiramente para telas grandes - Computadores) 
         Nesta abordagem o desenvolvimento é focado <b>primeiro em telas grandes</b>, para somente depois realizarmos em telas pequenas
 
 
+Mídia Quéries (consultas de mídias)/*estilos que serão aplicados em determinadas condições dependendo do uso de telas (neste exemplo que estamos usando designe responsivo)*/
+    @media 

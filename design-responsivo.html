@@ -17,7 +17,7 @@
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: rgb(231, 230, 226);
+            background-color: rgb(43, 255, 124);
         }
 
         .exemplo {
@@ -27,7 +27,7 @@
         }
 
         h1 {
-            color: brown;
+            color: rgb(173, 47, 47);
             text-shadow: rgba(0, 0, 0, 0.63) 1px 1px 2px;
             font-size: 24px;
         }
@@ -48,6 +48,39 @@
 
         /*Etapa 2°:
         estilos que serão aplicados em determinadas condições dependendo do uso de telas (neste exemplo que estamos usando designe responsivo)*/
+        /*Mídia Quéries (consultas de mídias)*/
+        @media screen and (min-width: 600px){
+            body {background-color:yellow;}
+            h1 {
+                text-align: center;
+                font-size: 28px;
+            }
+        }
+
+
+        /*Exercício: Fazer uma regra condicional (@midia quuerie) para telas com tamanho maior ou igual a 777px em que aconteça as seguintes adaptações*/
+        /*
+            -A div exemplo deve ter largura de 75% e ficar no meio
+            -Os negritos devem ter outra cor (cor de fundo e/ou texto)
+            -O tamanho dos parágrafos devem dubir para 18px
+            -Cor de fundo da página deve voltar a cor original
+        */
+
+        @media screen and (min-width: 777px){
+            body{
+                display: flex;
+                justify-content: center;
+                background-color: rgb(43, 255, 124);
+            }
+            .exemplo{
+                width: 75%;
+            }
+            b{color: blue; background-color: chartreuse;}
+            p{font-size: 18px;}
+        }
+
+
+
     </style>
 </head>
 
