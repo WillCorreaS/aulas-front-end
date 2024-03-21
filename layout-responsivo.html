@@ -12,18 +12,18 @@
         * {
             box-sizing: border-box;
         }
-    
+
         body {
             background-color: cyan;
             font-family: Verdana;
         }
-    
+
         .container {
             background-color: white;
             padding: 5px;
             box-shadow: black 0 0 5px;
         }
-    
+
         /*Regra de RESET do CSS*/
         body h1,
         h2,
@@ -31,72 +31,151 @@
             margin: 0;
             padding: 0;
         }
-    
-    
-    
-    
+
+
+
+
         h2,
         p {
             padding: 4px;
         }
-    
+
         .topo {
             background-color: hotpink;
             padding: 4px;
         }
-    
+
         h1 {
             background-color: yellow;
         }
-    
+
         .menu {
             background-color: aquamarine;
         }
-    
-    
+
+
         .conteudo {
             padding: 4px;
             background-color: greenyellow;
         }
 
-        .um, .dois, .tres{border:solid 1px black;}
-        
-        .um{background-color: darkorchid;}
+        .um,
+        .dois,
+        .tres {
+            border: solid 1px black;
+        }
 
-        .dois {background-color: pink;}
+        .um {
+            background-color: darkorchid;
+        }
 
-        .tres {background-color: rgb(94, 189, 0);}
+        .dois {
+            background-color: pink;
+        }
 
-        .rodape {background-color: red;}
-    
+        .tres {
+            background-color: rgb(94, 189, 0);
+        }
+
+        .rodape {
+            background-color: red;
+        }
+
 
 
         /*Regras Condicionais @media Querie*/
-        @media screen and (min-width: 550px){
-            .topo{
+        @media screen and (min-width: 550px) {
+            .topo {
                 display: flex;
                 justify-content: space-between;
             }
 
-            h1{width: 60%;}
-            .menu{width: 40%;
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
+            h1 {
+                width: 60%;
+            }
+
+            .menu {
+                width: 40%;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
             }
         }
 
         /*Nova regra @mediaQuerie*/
-        @media screen and (min-width: 650px){
-            .conteudo{display: flex;
-                      flex-wrap: wrap;
-                      gap: 5px;}
+        @media screen and (min-width: 650px) {
+            .conteudo {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                /*gap: 5px; - Utilizado para espaçamento entre elementos poré é nescessário calcular a altura e largura dos elementos para caberem no container*/   
+            }
 
-            .um{width: 68%;}
-            .dois{width: 30%}
-            .tres{width: 100%}
+            .um {
+                width: 69%;
+            }
+
+            .dois {
+                width: 30%
+            }
+
+            .tres {
+                width: 100%;
+                margin-top: 1%;
+            }
         }
 
+        @media screen and (min-width: 800px) {
+            .topo {
+                display: flex;
+                justify-content: space-between;
+                height: 90px;
+            }
+
+            h1 {
+                display: flex;
+                align-items: center;
+                padding-top: 50px;
+                width: 60%;
+                font-size: 38px;
+            }
+
+            .menu {
+                font-size: 26px;
+                display: flex;
+            }
+
+
+            .conteudo{
+                display: flex;
+                flex-wrap:nowrap;
+                margin: 0;
+                padding: 0;
+
+            }
+            .um {
+                width: auto;
+                margin: 1%;
+            }
+
+            .dois {
+                width: auto;
+                margin: 1%;
+            }
+
+            .tres {
+                width: auto;
+                margin-top: 0;
+                margin: 1%;
+            }
+
+            .container{max-width: 900px; margin: auto;}
+            
+
+        }
+
+
+        
     </style>
 
 </head>

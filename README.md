@@ -13,6 +13,11 @@ Atividades de estudo de HTML e CSS.
 
 ## CSS
 
+parte do código para limitar a expansão das imagens do site e manter centralizado.
+-'''{max-width: 900px; margin: auto;}'''
+
+
+
 Linguagem de estilização que "casa" com elementos HTML.
 
 Em geral, CSS serve para:
@@ -143,5 +148,7 @@ Mídia Quéries (consultas de mídias)/*estilos que serão aplicados em determin
 ###### Utilizando Flex-Box ######
 
 -display:flex = utilizado para habilitar o uso dos atributos do Flex-box
+
+gap: 5px; - Utilizado para espaçamento entre elementos poré é nescessário calcular a altura e largura dos elementos para caberem no container
 
 
