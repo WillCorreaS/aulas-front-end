@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidade REM</title>
+    <style>
+/*Regra para o elemento raiz : seletor HTML*/
+        html{font-size: 16px;}
+
+        h1{ font-size: 3rem; }
+        h2{ font-size: 2rem; }
+        p { font-size: 1rem; }
+
+        @media screen and (min-width: 420px) {
+            html {font-size: 20px;}
+        }
+
+        @media screen and (min-width: 620px) {
+            html {font-size: 30px;}
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Utilizando Unidade REM</h1>
+    <hr>
+    <h2>CONCEITO GERAL:</h2>
+    <p>Uma unidade cujo valor é <b>relativo</b> ao <code>font-size</code> do elemento HTML (ta,ném chamado de tag <b>raiz</b>)</p>
+
+    <p>Por padrão o <code>font-size</code> do elemento é <b>16px</b>. Portanto, <b>1rem</b> equivale a 16px.</p>
+
+
+</body>
+</html>
