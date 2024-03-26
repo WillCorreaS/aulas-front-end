@@ -3,6 +3,8 @@
 
  # Anotações sobre Front-End
 
+
+
 Atividades de estudo de HTML e CSS.
 
 ## HTML
@@ -150,5 +152,7 @@ Mídia Quéries (consultas de mídias)/*estilos que serão aplicados em determin
 -display:flex = utilizado para habilitar o uso dos atributos do Flex-box
 
 gap: 5px; - Utilizado para espaçamento entre elementos poré é nescessário calcular a altura e largura dos elementos para caberem no container
+
+
 
 
